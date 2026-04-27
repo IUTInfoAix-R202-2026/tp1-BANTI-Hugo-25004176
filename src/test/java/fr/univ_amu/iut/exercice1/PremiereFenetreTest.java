@@ -19,7 +19,6 @@ class PremiereFenetreTest {
   void start(Stage stage) throws Exception {
     this.stage = stage;
     new PremiereFenetre().start(stage);
-    this.stage.show();
   }
 
   @Test
